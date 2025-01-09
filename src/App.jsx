@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div style={{ maxWidth: '600px', margin: '50px auto', textAlign: 'center' }}>
-      <h1>To-Do List</h1>
+      <h1>To-Do List test</h1>
       <TaskList tasks={tasks} toggleTask={toggleTask} deleteTask={deleteTask} addTask={addTask} />
     </div>
   );
